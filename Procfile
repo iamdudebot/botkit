@@ -1,1 +1,1 @@
-web: npm start
+worker: slack_bot.js
