@@ -29,7 +29,7 @@ function startBot() {
   //collection.remove();
 
   var botkitController = botkit.slackbot({
-    debug: falses
+    debug: false
   });
 
   botkitController.spawn({
@@ -197,7 +197,7 @@ function startBot() {
 
 }
 
-if (!process.env.token) {
+if (!process.env.TOKEN) {
   console.log('Error: Specify token in environment');
   process.exit(1);
 }
