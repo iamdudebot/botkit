@@ -37,7 +37,8 @@
   },
   "scripts": {
     "pretest": "jscs ./lib/",
-    "test": "mocha tests/*.js"
+    "test": "mocha tests/*.js",
+    "start": "slack_bot.js"
   },
   "repository": {
     "url": "(https://github.com/howdyai/botkit.git",
