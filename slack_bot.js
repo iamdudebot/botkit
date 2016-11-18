@@ -81,7 +81,7 @@ function startBot() {
   // });
 
 
-  botkitController.hears(['report'], ['direct_message'], ['direct_mention'], function(bot, message) {
+  botkitController.hears(['report'], ['direct_message','direct_mention','mention'], function(bot, message) {
     bot.reply(message, "Let me make sure everyone's dude status has been set.");
 
     function assignDude(status, val) {
