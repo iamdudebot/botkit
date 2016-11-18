@@ -33,7 +33,7 @@ function startBot() {
   });
 
   botkitController.spawn({
-    token: process.env.token
+    token: process.env.TOKEN
   }).startRTM();
 
 
